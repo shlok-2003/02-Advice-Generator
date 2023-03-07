@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advice Generator</title>
+
+        <!-- My Favicon -->
+        <link rel="icon" type="image/png" href="favicon/favicon-32x32.png">
+        <!-- My Style -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Advice #</h1>
+            <p class="text"></p>
+    
+            <picture>
+            <source
+                media="(min-width: 768px)"
+                srcset="./image/pattern-divider-desktop.svg"
+            />
+            <img src="./image/pattern-divider-mobile.svg" alt="divider" />
+            </picture>
+    
+            <div>
+                <button onclick="fetchAdvice()">
+                <img src="./image/icon-dice.svg" alt="" />
+            </button>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
+</html>
